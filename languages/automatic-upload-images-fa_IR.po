@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: automatic upload images\n"
+"POT-Creation-Date: 2019-12-15 11:24+0330\n"
+"PO-Revision-Date: 2019-12-15 11:35+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: automatic-upload-images.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-automatic-upload-images-admin.php:178 admin/setting-page.php:4
+msgid "Automatic Upload Images Settings"
+msgstr "تنظیمات افزونه آپلود اتوماتیک عکس"
+
+#: admin/class-automatic-upload-images-admin.php:179
+msgid "Automatic Upload Images"
+msgstr "آپلود اتوماتیک عکس"
+
+#: admin/class-automatic-upload-images-admin.php:223
+msgid "Settings Saved."
+msgstr "ذخیره تنظیمات."
+
+#: admin/class-automatic-upload-images-admin.php:228
+msgid "Successfully settings reset to defaults."
+msgstr "تنظیمات با موفقیت مجددا بصورت پیشفرض بارگذاری شدند."
+
+#: admin/setting-page.php:34
+msgid "Base URL:"
+msgstr "آدرس:"
+
+#: admin/setting-page.php:39
+msgid ""
+"If you need to choose a new base URL for the images that will be "
+"automatically uploaded. Ex:"
+msgstr ""
+"در صورت نیاز آدرس اصلی جدیدی برای تصاویری که به صورت خودکار بارگذاری می‌شوند ."
+"انتخاب کنید. مثل:"
+
+#: admin/setting-page.php:45
+msgid "Image Name:"
+msgstr "نام عکس:"
+
+#: admin/setting-page.php:51
+#, php-format
+msgid ""
+"Choose a custom filename for the new images will be uploaded. You can also "
+"use these shortcodes %s."
+msgstr ""
+"نام دلخواهی برای نام فایل تصاویر جدیدی که بارگذاری می‌شود انتخاب کنید. همچنین "
+"می‌توانید از کدهای کوتاه %s در این نام استفاده کنید."
+
+#: admin/setting-page.php:58
+msgid "Alt Name:"
+msgstr "نام alt تصویر:"
+
+#: admin/setting-page.php:64
+#, php-format
+msgid ""
+"Choose a custom alt name for the new images will be uploaded. You can also "
+"use these shortcodes %s."
+msgstr ""
+"نام دلخواهی برای نام alt تصاویر جدیدی که بارگذاری می‌شود انتخاب کنید. همچنین "
+"می‌توانید از کدهای کوتاه %s در این نام استفاده کنید."
+
+#: admin/setting-page.php:72
+msgid "Image Size:"
+msgstr "اندازه تصویر:"
+
+#: admin/setting-page.php:74
+msgid "(Inactive)"
+msgstr "(غیرفعال)"
+
+#: admin/setting-page.php:78
+msgid "Max Width"
+msgstr "بیشترین عرض \":\""
+
+#: admin/setting-page.php:80
+msgid "Max Height"
+msgstr "بیشترین ارتفاع"
+
+#: admin/setting-page.php:82
+msgid ""
+"You can choose max width and height for images uploaded by this plugin on "
+"your site. If you leave empty each one of fields by default use the original "
+"size of the image."
+msgstr ""
+"شما می‌توانید بیشترین عرض و ارتفاع تصاویری که با استفاده از این افزونه در "
+"سایت\n"
+"بارگذاری می‌شوند را از این قسمت تعیین نمایید. همچنین در صورت خالی رها کردن "
+"هر \n"
+"\"یک از این گزینه‌ها به صورت پیش‌فرض از اندازه های اصلی تصویر استفاده می‌گردد."
+
+#: admin/setting-page.php:84
+msgid "To activate this feature please enable Gd or Imagick extensions of PHP."
+msgstr ""
+"برای فعال سازی این امکان لطفا افزونه های Gd یا Imagick را برای PHP نصب و "
+"فعال نمائید."
+
+#: admin/setting-page.php:92
+msgid "Exclude Post Types:"
+msgstr "نوع مطلب های مثتثنی:"
+
+#: admin/setting-page.php:105
+msgid "Select the Post Types that you want exclude from automatic uploading"
+msgstr ""
+"نوع مطالبی که می‌خواهید بارگذاری خودکار تصاویر در آنها انجام نشود را انتخاب "
+"کنید"
+
+#: admin/setting-page.php:111
+msgid "Exclude Domains:"
+msgstr "دامنه‌های مثتثنی:"
+
+#: admin/setting-page.php:115
+msgid ""
+"Enter the domains you wish to be excluded from uploading images: (One domain "
+"per line)"
+msgstr ""
+"دامنه‌هایی را که می‌خواهید از آنها آپلود تصاویر انجام نگردد وارد نمایید: (هر "
+"خط یک آدرس)"
+
+#: admin/setting-page.php:122
+msgid "Reset Options"
+msgstr "بازگردانی تنظیمات اصلی"
+
+#: admin/setting-page.php:123
+msgid "Are you sure to reset all options to defaults?"
+msgstr "آیا از تغییر تمام تنظیمات این افزونه به حالت پیش‌فرض اطمینان دارید؟"
+
+#. Plugin Name of the plugin/theme
+msgid "automatic upload images"
+msgstr "افزونه آپلود عکس اتوماتیک"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.hamyarwoo.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iman heydari"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.iranimij.com"
+msgstr ""
