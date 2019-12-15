@@ -151,7 +151,6 @@
                                 </li>
                             </ul>
                             <hr>
-                            <p><?php _e('If you are a wp developer and like to contribute to this plugin development or you are a translator and want to have this plugin in your language you can start from <a href="https://github.com/airani/wp-auto-upload" target="_blank">plugin Github repository</a>.', 'automatic-upload-images') ?></p>
                         </div>
                     </div>
                 </div>
