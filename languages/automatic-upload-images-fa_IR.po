@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: automatic upload images\n"
 "POT-Creation-Date: 2019-12-15 11:24+0330\n"
-"PO-Revision-Date: 2019-12-15 11:30+0330\n"
+"PO-Revision-Date: 2019-12-15 11:35+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -31,27 +31,27 @@ msgstr "آپلود اتوماتیک عکس"
 
 #: admin/class-automatic-upload-images-admin.php:223
 msgid "Settings Saved."
-msgstr "ذخیره تنظیمات"
+msgstr "ذخیره تنظیمات."
 
 #: admin/class-automatic-upload-images-admin.php:228
 msgid "Successfully settings reset to defaults."
-msgstr "تنظیمات با موفقیت مجددا بصورت پیشفرض بارگذاری شدند"
+msgstr "تنظیمات با موفقیت مجددا بصورت پیشفرض بارگذاری شدند."
 
 #: admin/setting-page.php:34
 msgid "Base URL:"
-msgstr "آدرس "
+msgstr "آدرس:"
 
 #: admin/setting-page.php:39
 msgid ""
 "If you need to choose a new base URL for the images that will be "
 "automatically uploaded. Ex:"
 msgstr ""
-"در صورت نیاز آدرس اصلی جدیدی برای تصاویری که به صورت خودکار بارگذاری می‌شوند "
-"\"\"انتخاب کنید. مثل:"
+"در صورت نیاز آدرس اصلی جدیدی برای تصاویری که به صورت خودکار بارگذاری می‌شوند ."
+"انتخاب کنید. مثل:"
 
 #: admin/setting-page.php:45
 msgid "Image Name:"
-msgstr "نام عکس"
+msgstr "نام عکس:"
 
 #: admin/setting-page.php:51
 #, php-format
@@ -85,7 +85,7 @@ msgstr "(غیرفعال)"
 
 #: admin/setting-page.php:78
 msgid "Max Width"
-msgstr "بیشترین عرض"
+msgstr "بیشترین عرض \":\""
 
 #: admin/setting-page.php:80
 msgid "Max Height"
