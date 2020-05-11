@@ -3,6 +3,7 @@
 /**
  * @author Iman heydari <iranimij@gmail.com>
  */
+if (!class_exists("ImageUploader")){
 class ImageUploader
 {
     public $post;
@@ -312,4 +313,5 @@ var_dump();
 
         return array_key_exists($mime, $mimes) ? $mimes[$mime] : null;
     }
+}
 }
