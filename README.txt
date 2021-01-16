@@ -1,9 +1,9 @@
 === Automatic Upload Images ===
-Contributors: iman heydari
+Contributors: Iman Heydari
 Donate link: https://iranimij.com/
-Tags: upload, auto, automatically, image, images, admin, administrator, post, save, media, automation, filter,upload image,auto wordpress
-Requires at least: 2.7
-Tested up to: 5.2
+Tags: upload, auto, automatically, image, images, admin, administrator, post, save, media, automation, filter,upload-image,auto-wordpress
+Requires at least: 2
+Tested up to: 5.6
 Stable tag: 3.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
