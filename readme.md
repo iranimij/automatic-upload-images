@@ -1,12 +1,11 @@
 # Automatic Upload Images
 
-[![Build Status](https://travis-ci.com/airani/wp-auto-upload.svg?branch=master)](https://travis-ci.com/airani/wp-auto-upload)
 
-**Version:** 1.0.0
+**Version:** 1.1.0
 
-**Requires at least:** 2.7
+**Requires at least:** 2
 
-**Tested up to:** 5.2
+**Tested up to:** 5.6
 
 **License:** GPLv2 or later
 
