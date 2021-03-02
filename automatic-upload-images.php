@@ -14,7 +14,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       automatic upload images
- * Plugin URI:        http://www.hamyarwoo.com
+ * Plugin URI:        http://www.iranimij.com
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           1.2.1
  * Author:            iman heydari
