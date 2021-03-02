@@ -270,7 +270,7 @@ class Automatic_Upload_Images_Admin {
             }
         }
 
-        preg_match_all('/<img[^>]*src=["\']([^"\']*)[^"\']*["\'][^>]*>/i', $content, $urls, PREG_SET_ORDER);
+        preg_match_all('/<img[^>]* src=["\']([^"\']*)[^"\']*["\'][^>]*>/i', $content, $urls, PREG_SET_ORDER);
         $urls = array_merge($urls, $urls1);
 
         if (count($urls) == 0) {
