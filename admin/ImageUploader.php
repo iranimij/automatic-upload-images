@@ -25,7 +25,7 @@ class ImageUploader
      */
     public static function getHostUrl($url = null, $scheme = false)
     {
-var_dump();
+
         $url = $url ?: Automatic_Upload_Images_Admin::getOption('base_url');
 
         $urlParts = parse_url($url);
