@@ -130,7 +130,7 @@ class Automatic_Upload_Images_Admin {
         if (count($images) == 0) {
             return false;
         }
-
+//var_dump($images);die();
         foreach ($images as $image) {
             $uploader = new ImageUploader($image['url'], $image['alt'], $postarr);
 
