@@ -36,7 +36,7 @@
                                 </th>
                                 <td>
                                     <input type="text" name="base_url" value="<?php echo esc_url(self::getOption('base_url')); ?>" class="regular-text" dir="ltr" />
-                                    <p class="description"><?php _e('If you need to choose a new base URL for the images that will be automatically uploaded. Ex:', 'automatic-upload-images'); ?> <code>https://iranimij.com</code>, , <code>/</code></p>
+                                    <p class="description"><?php _e('If you need to choose a new base URL for the images that will be automatically uploaded. Ex:', 'automatic-upload-images'); ?> <code>https://iranimij.com</code><code>/</code></p>
                                 </td>
                             </tr>
                             <tr valign="top">
@@ -147,7 +147,7 @@
                                     </a>
                                 </li>
                                 <li class="dashicons-before dashicons-twitter" style="color: #82878c">
-                                    <a href="https://twitter.com/imanheydari13" title="Iman Heydari" style="text-decoration: none" target="_blank"><?php _e('Twitter of Plugin Developer', 'automatic-upload-images'); ?></a>
+                                    <a href="https://twitter.com/iranimij" title="Iman Heydari" style="text-decoration: none" target="_blank"><?php _e('Twitter of Plugin Developer', 'automatic-upload-images'); ?></a>
                                 </li>
                             </ul>
                             <hr>

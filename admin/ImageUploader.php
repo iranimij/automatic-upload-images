@@ -35,7 +35,8 @@ class ImageUploader
         }
 
         $url = array_key_exists('port', $urlParts) ? $urlParts['host'] . ":" . $urlParts['port'] : $urlParts['host'];
-        $urlSimplified = preg_split('/^(www(2|3)?\.)/i', $url, -1, PREG_SPLIT_NO_EMPTY); // Delete www from URL
+//        $urlSimplified = preg_split('/^(www(2|3)?\.)/i', $url, -1, PREG_SPLIT_NO_EMPTY); // Delete www from URL
+        $urlSimplified = $url; // Delete www from URL
         $urlSimplified = is_array($urlSimplified) && array_key_exists(0, $urlSimplified) ? $urlSimplified[0] : $url;
         $url = $scheme && array_key_exists('scheme', $urlParts) ? $urlParts['scheme'] . '://' . $urlSimplified : $urlSimplified;
 
@@ -206,7 +207,7 @@ class ImageUploader
         $image['filename'] = $this->getFilename() . '.' . $image['ext'];
         $image['base_path'] = rtrim($this->getUploadDir('path'), DIRECTORY_SEPARATOR);
         $image['base_url'] = rtrim($this->getUploadDir('url'), '/');
-        $image['path'] = $image['base_path'] . DIRECTORY_SEPARATOR . $image['filename'];
+        $image['path'] = $image['base_path'] . '/' . $image['filename'];
         $image['url'] = $image['base_url'] . '/' . $image['filename'];
         $c = 1;
 
@@ -217,7 +218,7 @@ class ImageUploader
                 break;
             }
 
-            $image['path'] = $image['base_path'] . DIRECTORY_SEPARATOR . $c . '_' . $image['filename'];
+            $image['path'] = $image['base_path'] . '/' . $c . '_' . $image['filename'];
             $image['url'] = $image['base_url'] . '/' . $c . '_' . $image['filename'];
             $c++;
         }
